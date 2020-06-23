@@ -23,6 +23,8 @@ To replicate our setup, we recommend the following steps:
 3) Use the script `run_model_distilbert_large.py` with bz2 file of Reddit data as an argument. You will need to modify the script to point to the correct model file from the previous step and to specify the output file.
 4) Combine desired amount of output from step 3 with the test dataset from step 1. Train a log regression model using this data - `log_regression/log_regression_uptrain.py`. Please modify the file to indicate the correct input file and test file. Output will be a trained model and a file containing predictions of the test data input.
 
+Trained Models can be found here: [BERT](https://drive.google.com/file/d/1EAS2kEKp4bDO0s657P3hIGh5jZ1qZM2T/view?usp=sharing), [DistilBERT](https://drive.google.com/file/d/1fTNHZigPX_TzOHZCisjJgh88BDR_Lhrd/view?usp=sharing)
+
 Please contact ssdavidson@ucdavis.edu with any questions regarding this implementation.
 
 
